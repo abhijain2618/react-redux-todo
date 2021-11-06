@@ -1,0 +1,39 @@
+.app {
+  margin: 10px;
+  /* border: 2px solid #eee; */
+}
+.header {
+  background-color: #282c34;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.add-todo {
+  padding: 20px;
+  border: 2px solid #eee;
+  border-radius: 5px;
+}
+.add-todo input,
+.add-todo textarea,
+.add-todo button {
+  margin-bottom: 10px;
+}
+.add-todo button {
+  width: 100%;
+}
+.todo-list {
+  border: 2px solid #eee;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.todo-item {
+  border: 1px solid #282c34;
+  padding: 5px;
+  border-radius: 2px;
+  margin-bottom: 2px;
+}
